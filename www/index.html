@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+        <link rel='stylesheet prefetch' href='https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css'>
+        <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>MP3 Tube</title>
+    </head>
+    <body>
+
+        <div data-role="page" id="home" data-theme="b">
+        <div id="upper">
+          <div data-role="header">
+            <a href="#" class="ui-btn ui-corner-all ui-shadow"><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span></a>
+            <h1>mp3-<span id="tube">Tube<span></h1>
+          </div>
+          <div data-role="main" class="ui-content">
+           <input type="search"  name="search" id="search-basic" class="search-bar"placeholder="Search for a song..."/>
+           <button onclick='search()' data-role="button" data-icon="search" data-mini="true" data-inline="true" data-theme="b" id="search-btn">Search</button>
+            </div>
+         </div>
+          <div id="spacer"></div>
+          <div id="homepage-content">
+          <div class="container-fluid" id="home-content">
+            <div class="row">
+              <div class="col-xs-6"><div class="content"><span id="icon" class="glyphicon glyphicon-upload" aria-hidden="true"></span></div><span id="caption">YouTube Top 100</span></div>
+              <div class="col-xs-6"><div class="content"><span id="icon" class="glyphicon glyphicon-repeat" aria-hidden="true"></span></div><span id="caption">Recently Played</span></div>
+            </div>
+             <div class="row">
+              <div class="col-xs-6"><div class="content"><span id="icon" class="glyphicon glyphicon-flash" aria-hidden="true"></span></div><span id="caption">Random</span></div>
+              <div class="col-xs-6"><div class="content"><span id="icon" class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></div><span id="caption">Most Played</span></div>
+            </div>
+
+
+                  <!-- <div class="row" id="listSongs">
+                    <div id="song">
+                      <div class="col-xs-2">
+                        <img id="thumbnail" src="http://img.youtube.com/vi/EDxMDoE4nIo/0.jpg" alt="">
+                      </div>
+                      <div class="col-xs-8" id="title">
+                        sss
+                      </div>
+                      <div class="col-xs-1" id="">
+                        ddd
+                      </div>
+                      <div class="col-xs-1" id="">
+                        sss
+                      </div>
+                    </div>
+                  </div> -->
+
+          </div>
+          </div>
+        <div data-role="footer" data-position="fixed" data-id="main-footer" id="foot">
+         <div data-role="navbar">
+          <ul id="nav">
+            <li><a href="#prev"><span class="glyphicon glyphicon-backward" aria-hidden="true"></span></a></li>
+            <li><a id="play"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></a></li>
+            <li><a href="#next"><span class="glyphicon glyphicon-forward" aria-hidden="true"></span></a></li>
+          </ul>
+        </div>
+        </div>
+       </div>
+        <script src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+      <script src='https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js'></script>
+
+          <script src="js/index.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>

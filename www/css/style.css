@@ -1,0 +1,82 @@
+body{
+  margin: 0px;
+  padding : 0px;
+}
+#upper{
+  position:fixed;
+  width : 100%;
+  background: #333333;
+  z-index : 1;
+}
+#spacer{
+  height : 174px;
+}
+#tube{
+  color: #fff;
+  background: #E62117;
+  padding:2px 4px;
+  border-radius: 6px;
+}
+#search-btn{
+  display : block;
+  width : 30%;
+  margin : auto;
+  border-radius : 20px;
+  margin-top : 20px;
+}
+#foot .ui-btn {
+  height: 50px;
+  font-size : 20px;
+}
+.ui-navbar li .ui-btn .ui-btn-inner, .ui-navbar li .ui-btn {
+    border: 0 solid #333333 !important;
+}
+.search-header{
+  float : right;
+}
+
+#home-content{
+  margin-top: 20px;
+}
+#listSongs{
+  background: #333333;
+  height : 80px;
+  margin-top: 2px;
+}
+#song{
+  line-height: 80px;
+}
+#thumbnail {
+    height : 80px;
+    width : 100%;
+}
+
+#title{
+  background: yellow;
+}
+.content{
+  height : 80px;
+  background : #333333;
+  margin-top : 10px;
+  text-align : center;
+  border-radius : 20px;
+
+}
+#icon{
+  line-height: 80px;
+  font-size:50px;
+  text-shadow: 1px 2px 5px #ccc;
+}
+#caption{
+  font-size : 10px;
+  text-align : center;
+  display : block;
+  margin : auto;
+  margin-top : 4px;
+}
+.list{
+  font-size : 15px;
+}
+footer{
+  position : fixed;
+}
